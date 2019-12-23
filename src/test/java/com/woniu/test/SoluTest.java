@@ -40,5 +40,11 @@ public class SoluTest {
 		int i = s.firstUniqChar("aadadaad");
 		System.out.println(i);
 	}
+	@Test
+	public void test4() {
+		Solution s = new Solution();
+		String string = s.defangIPaddr("255.100.50.0");
+		System.out.println(string);
+	}
 
 }

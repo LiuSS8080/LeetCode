@@ -159,8 +159,12 @@ public class Solution {
     }
 
 	// =================分割线============================================================================
-	
-	
+	public String defangIPaddr(String address) {
+        return address.replace(".", "[.]");
+    }
+//	public int getDecimalValue(ListNode head) {
+//        
+//    }
 	
 
 	/**
