@@ -1,7 +1,5 @@
 package com.woniu.test;
 
-import static org.junit.Assert.*;
-
 import java.util.List;
 
 import org.junit.Test;
@@ -43,8 +41,8 @@ public class SoluTest {
 	@Test
 	public void test4() {
 		Solution s = new Solution();
-		String string = s.defangIPaddr("255.100.50.0");
-		System.out.println(string);
+//		String string = s.defangIPaddr("255.100.50.0");
+//		System.out.println(string);
 	}
 
 }

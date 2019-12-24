@@ -159,12 +159,31 @@ public class Solution {
     }
 
 	// =================分割线============================================================================
-	public String defangIPaddr(String address) {
-        return address.replace(".", "[.]");
+	
+	/**
+	 * 1281. 整数的各位积和之差
+	 * 给你一个整数 n，请你帮忙计算并返回该整数「各位数字之积」与「各位数字之和」的差。
+	 * @param n
+	 * @return
+	 */
+	public int subtractProductAndSum(int n) {
+		List<Integer> list = new ArrayList<Integer>();
+		int yu = 0;
+		do {
+			yu = n%10;
+			n = n/10;
+			list.add(yu);
+		}while(n!=0);
+		
+		int h = 0;
+		int j = 1;
+		for (int i = 0; i < list.size(); i++) {
+			h+=list.get(i);
+			j*=list.get(i);
+		}
+		return j-h;
     }
-//	public int getDecimalValue(ListNode head) {
-//        
-//    }
+	
 	
 
 	/**
