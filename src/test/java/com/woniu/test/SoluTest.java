@@ -5,6 +5,7 @@ import java.util.List;
 import org.junit.Test;
 
 import com.woniu.util.Solution;
+import com.woniu.util.s20191226;
 
 public class SoluTest {
 
@@ -43,6 +44,11 @@ public class SoluTest {
 		Solution s = new Solution();
 //		String string = s.defangIPaddr("255.100.50.0");
 //		System.out.println(string);
+	}
+	@Test
+	public void test5() {
+		s20191226 s = new s20191226     ();
+		s.reverseWords("Let's take LeetCode contest");
 	}
 
 }
