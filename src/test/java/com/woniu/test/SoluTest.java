@@ -47,7 +47,7 @@ public class SoluTest {
 	}
 	@Test
 	public void test5() {
-		s20191226 s = new s20191226     ();
+		s20191226 s = new s20191226();
 		s.reverseWords("Let's take LeetCode contest");
 	}
 
