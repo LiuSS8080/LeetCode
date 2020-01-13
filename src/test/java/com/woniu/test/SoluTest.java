@@ -2,6 +2,7 @@ package com.woniu.test;
 
 import java.util.List;
 
+import com.woniu.util.S20200113;
 import org.junit.Test;
 
 import com.woniu.util.Solution;
@@ -49,6 +50,14 @@ public class SoluTest {
 	public void test5() {
 		s20191226 s = new s20191226();
 		s.reverseWords("Let's take LeetCode contest");
+	}
+	@Test
+	public void test6() {
+		S20200113 s = new S20200113();
+		String str = "Hannah";
+		char[] chars = str.toCharArray();
+		s.reverseString(chars);
+		System.out.println(new String(chars));
 	}
 
 }
