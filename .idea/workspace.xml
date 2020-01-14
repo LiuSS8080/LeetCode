@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56d8f867-569b-45be-b671-e0f1f46473b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2day.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/woniu/util/S20200113.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/woniu/util/S20200113.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/woniu/util/s20200112$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/woniu/util/s20200112$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/woniu/util/s20200112.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/woniu/test/SoluTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/woniu/test/SoluTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.leetcode/day2day/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.leetcode/day2day/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/woniu/util/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/woniu/util/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/woniu/util/s20191223.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/woniu/util/s20191223.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/woniu/util/s20191226.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/woniu/util/s20191226.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/woniu/test/SoluTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/woniu/test/SoluTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/woniu/util/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/woniu/util/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/woniu/util/s20200114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/woniu/util/S20200113.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/woniu/util/S20200113.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,17 +20,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/woniu/util/S20200113.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,7 +37,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/woniu/util/s20200113.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/woniu/test/SoluTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniu/util/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniu/util/s20200114.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/woniu/util/S20200113.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniu/util/ListNode.java" />
       </list>
     </option>
   </component>
@@ -83,16 +58,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="606" />
-    <option name="y" value="36" />
-    <option name="width" value="1695" />
-    <option name="height" value="1035" />
+    <option name="x" value="155" />
+    <option name="y" value="6" />
+    <option name="width" value="1232" />
+    <option name="height" value="860" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,7 +106,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -199,7 +174,19 @@
       <updated>1578879454589</updated>
       <workItem from="1578879458788" duration="1861000" />
       <workItem from="1578893047796" duration="2672000" />
+      <workItem from="1578919514813" duration="58000" />
+      <workItem from="1578969374221" duration="184000" />
+      <workItem from="1578969571657" duration="1287000" />
+      <workItem from="1578999785631" duration="3288000" />
     </task>
+    <task id="LOCAL-00001" summary="20200113 2道">
+      <created>1578919551684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578919551685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -208,13 +195,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4533000" />
+    <option name="totallyTimeSpent" value="9350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17544988" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14845759" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -248,14 +234,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20200113 2道" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200113 2道" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniu/util/s20200112.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/woniu/test/SoluTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -263,10 +246,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniu/util/s20200112.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniu/util/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniu/util/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2403">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniu/util/s20200114.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniu/util/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/woniu/util/S20200113.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        <state relative-caret-position="783">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
         </state>
       </provider>
     </entry>
