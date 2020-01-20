@@ -2,14 +2,6 @@ package com.woniu.util;
 
 public class s20200112 {
 
-    public class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) {
-          val = x;
-      }
-    }
-
     /**237. 删除链表中的节点
      * 请编写一个函数，使其可以删除某个链表中给定的（非末尾）节点，
      * 你将只被给定要求被删除的节点。
@@ -24,12 +16,7 @@ public class s20200112 {
         //将当前节点值的next指向下下一个节点（相当于删除下个节点,前提为当前节点不是最后一个节点）
         node.next = node.next.next;
     }
-    public class TreeNode {
-       int val;
-       TreeNode left;
-       TreeNode right;
-       TreeNode(int x) { val = x; }
-   }
+
 
     /**104. 二叉树的最大深度
      * 给定一个二叉树，找出其最大深度。
