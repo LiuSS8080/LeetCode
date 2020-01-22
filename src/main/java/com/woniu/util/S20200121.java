@@ -3,7 +3,7 @@ package com.woniu.util;
 import java.util.HashSet;
 import java.util.Set;
 
-public class s20200121 {
+public class S20200121 {
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         ListNode pA = headA;
